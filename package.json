@@ -1,0 +1,25 @@
+{
+  "name": "tugaspekan4qa",
+  "version": "1.0.0",
+  "description": "Tugas Pekan 4 QA Automation Sanbercode",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET NODE_ENV=dev && node server.js",
+    "test": "mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/widyaryn/Tugas4APIAutomation.git#main"
+  },
+  "author": "M Abdul Alim Alami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/widyaryn/Tugas4APIAutomation/issues"
+  },
+  "homepage": "https://github.com/widyaryn/Tugas4APIAutomation/tree/main#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  }
+}
